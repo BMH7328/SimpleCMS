@@ -40,7 +40,7 @@
             'password' => password_hash( $password, PASSWORD_DEFAULT ) // convert user's password to random string
         ]);
 
-        // redirect user back to index.php
+
         header("Location: /login");
         exit;
     }
