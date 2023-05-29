@@ -1,6 +1,6 @@
 <?php
 
-require "parts/header.php";
+  require "parts/header.php";
 
 ?>
     <div class="container mx-auto my-5" style="max-width: 700px;">
@@ -32,8 +32,7 @@ require "parts/header.php";
         >
       </div>
     </div>
+
 <?php
 
-require "parts/footer.php";
-
-?>
+    require "parts/footer.php";

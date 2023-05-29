@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple CMS</title>
+    <title> <?php
+        if ( isset( $_SESSION['title'] ) ) {
+            echo $_SESSION['title'];
+            unset( $_SESSION['title'] );
+        } else {
+          echo "Simple CMS";
+        }
+      ?></title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"

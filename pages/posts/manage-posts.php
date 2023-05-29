@@ -1,13 +1,13 @@
-<?php 
+<?php
 
-require "parts/header.php";
+  require "parts/header.php";
 
 ?>
     <div class="container mx-auto my-5" style="max-width: 700px;">
       <div class="d-flex justify-content-between align-items-center mb-2">
         <h1 class="h1">Manage Posts</h1>
         <div class="text-end">
-          <a href="/manage-posts-add" class="btn btn-primary btn-sm"
+          <a href="manage-posts-add" class="btn btn-primary btn-sm"
             >Add New Post</a
           >
         </div>
@@ -30,7 +30,7 @@ require "parts/header.php";
               <td class="text-end">
                 <div class="buttons">
                   <a
-                    href="post.html"
+                    href="/post"
                     target="_blank"
                     class="btn btn-primary btn-sm me-2 disabled"
                     ><i class="bi bi-eye"></i
@@ -53,7 +53,7 @@ require "parts/header.php";
               <td class="text-end">
                 <div class="buttons">
                   <a
-                    href="post.html"
+                    href="/post"
                     target="_blank"
                     class="btn btn-primary btn-sm me-2"
                     ><i class="bi bi-eye"></i
@@ -76,7 +76,7 @@ require "parts/header.php";
               <td class="text-end">
                 <div class="buttons">
                   <a
-                    href="post.html"
+                    href="/post"
                     target="_blank"
                     class="btn btn-primary btn-sm me-2"
                     ><i class="bi bi-eye"></i
@@ -99,7 +99,7 @@ require "parts/header.php";
               <td class="text-end">
                 <div class="buttons">
                   <a
-                    href="post.html"
+                    href="/post"
                     target="_blank"
                     class="btn btn-primary btn-sm me-2"
                     ><i class="bi bi-eye"></i
@@ -148,6 +148,6 @@ require "parts/header.php";
       </div>
     </div>
 
-   <?php 
+<?php
 
-   require "parts/footer.php";
+    require "parts/footer.php";
