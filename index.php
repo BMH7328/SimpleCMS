@@ -29,6 +29,15 @@
         case "users/delete":
             require "includes/users/delete.php";
             break;
+        case "posts/add":
+            require "includes/posts/add.php";
+            break;
+        case "posts/edit":
+            require "includes/posts/edit.php";
+            break;
+        case "posts/delete":
+            require "includes/posts/delete.php";
+            break;
         case 'dashboard': //condition
             require "pages/dashboard.php";
             break;
